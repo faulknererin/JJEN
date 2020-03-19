@@ -1,4 +1,4 @@
-This front end design is carried over from Delivery 2. The following read me instructions follows from their work. 
+This frontend design is carried over from Delivery 2. The following read me instructions follows from their work. 
 
 
 
