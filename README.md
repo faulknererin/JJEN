@@ -8,3 +8,5 @@ py manage.py runserver
 
 Command to update system:
 py manage.py migrate
+
+npm install for react
