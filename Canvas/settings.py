@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+# Where Components/Apps will go
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -51,6 +51,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'Canvas.urls'
 
+#URL Routing
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -72,7 +73,7 @@ WSGI_APPLICATION = 'Canvas.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
+# to run database and sync: py manage.py migrate
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
