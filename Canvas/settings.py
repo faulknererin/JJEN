@@ -39,8 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     #third party
+    #Django Rest for React 
+    'rest_framework', 
     
     #own
+    #App to put react structure inside
+    'canvas_app',
 ]
 
 MIDDLEWARE = [
